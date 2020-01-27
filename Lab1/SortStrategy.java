@@ -1,4 +1,7 @@
 
 public interface SortStrategy {
-	public void sort();
+	public long[] sort(long[] numbers);
+	public long getSortTime();
+	public void resetTimer();
+	public String strategyName();
 }
